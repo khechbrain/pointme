@@ -1,7 +1,7 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import './App.css';
 import AdminPage from './components/admin/AdminPage';
-import LoginPage from './components/pages/LoginPage';
+import LoginPage from './components/pages/login/LoginPage';
 import RegisterPage from './components/pages/RegisterPage';
 
 function App() {
