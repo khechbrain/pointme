@@ -1,0 +1,47 @@
+.form{
+    margin-top: -5rem;
+}
+
+.img-fluid {
+    margin-bottom: 1rem;
+}
+
+.form-container{
+    max-width: 400px;
+}
+
+input{
+    width: 100%;
+    margin: 1rem 0;
+    outline: none;
+    background-color: #E1E1E1;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: black;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.forgetten-password a {
+    text-decoration: none;
+    color: black;
+}
+
+form button {
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: #086634;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}

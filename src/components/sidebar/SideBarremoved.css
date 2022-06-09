@@ -1,0 +1,74 @@
+/* Code couleures */
+/* blue: #006bbd */
+/* cian: #2dcdcf */
+
+.side-bar-md .slide-bar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .side-bar-md .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .side-bar-md .nav-menu {
+    background-color: #006bbd;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .side-bar-md .nav-menu.active {
+    left: 60px;
+    transition: 350ms;
+  }
+  
+  .side-bar-md .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  
+  .side-bar-md .nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .side-bar-md .nav-text a:hover {
+    background-color: #2dcdcf;
+  }
+  
+  .side-bar-md .nav-menu-items {
+    width: 100%;
+  }
+  
+  .side-bar-md .navbar-toggle {
+    background-color: #006bbd;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .side-bar-md span {
+    margin-left: 16px;
+  }
