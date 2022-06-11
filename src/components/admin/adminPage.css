@@ -1,0 +1,21 @@
+.ellipse-mercedes-img img {
+     width: 45px;
+     height: 45px;
+     
+}
+
+.status  p:first-child {
+     font-style: normal;
+     font-weight: 600;
+     font-size: 15.05px;
+     line-height: 17px;
+}
+
+.status p:last-child {
+     font-style: normal;
+     font-weight: 500;
+     font-size: 15.05px;
+     line-height: 17px;
+     color: #B3B3B3;
+     text-align: left;
+}
